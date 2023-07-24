@@ -206,7 +206,7 @@ section:nth-child(even) {
 }
 
 .btn:hover {
-    background: var(--carbon);
+    background: var(--write);
     letter-spacing: .1rem;
 }
 
