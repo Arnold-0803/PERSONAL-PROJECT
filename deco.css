@@ -51,14 +51,15 @@ header {
     height: 100%;
 }
 
-header .nav a {
+header .nav .nav-btn {
     position: relative;
     margin-left: 5rem;
     color: var(--write);
     font-size: 1.7rem;
 }
 
-header .nav a::after {
+/* header .nav a.out-btn, */
+header .nav .nav-btn::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -75,9 +76,8 @@ header .nav a:hover:after {
     transform: translateY(0);
 }
 
-header .out {
+header .nav .out-btn .out {
     font-size: 2rem;
-    color: var(--black);
 }
 
 header .out-btn {
@@ -85,10 +85,11 @@ header .out-btn {
     background: var(--carbon);
     font-size: 1.7rem;
     border-radius: .5rem;
+    margin-left: 3rem;
     /* display: flex;
     align-items: center;
-    justify-content: center;
-    border: none; */
+    justify-content: center;*/
+    border: none;
     outline: none;
 }
 
@@ -348,11 +349,20 @@ h4 {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
-    header .nav a {
+    header .nav .nav-btn {
         display: block;
         color: white;
         padding: 1.5rem;
         margin: 1rem;
+        font-size: 2rem;
+        background: var(--carbon);
+    }
+
+    header .nav .out-btn {
+        display: block;
+        color: white;
+        padding: 1.5rem;
+        margin: 5rem 1rem 0;
         font-size: 2rem;
         background: var(--carbon);
     }
