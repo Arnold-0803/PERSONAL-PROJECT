@@ -182,7 +182,7 @@ section:nth-child(even) {
 .home .home-slider .slide {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
     padding-top: 9rem;
@@ -362,7 +362,7 @@ h4 {
         display: block;
         color: white;
         padding: 1.5rem;
-        margin: 5rem 1rem 0;
+        margin: 3rem 1rem 0;
         font-size: 2rem;
         background: var(--carbon);
     }
@@ -370,7 +370,7 @@ h4 {
     #search-form #search-box {
         width: 90%;
         margin-right: 2rem;
-        padding-right: 6rem;
+        padding-right: 5rem;
         font-size: 2rem;
     }
 
@@ -386,6 +386,8 @@ h4 {
 
     #search-form #close {
         font-size: 2.5rem;
+        right: 3.5rem;
+        top: 1rem;
     }
 
     .home .home-slider .slide .content h1 {
